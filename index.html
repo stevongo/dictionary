@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX JSON und XML</title>
+    <link rel="stylesheet" href="dic.css">
+    <script src="../../../lib/js/lib.js"></script>
+    <script src="exercise_08.js"></script>
+</head>
+
+<body>
+    <h1>AJAX JSON und XML</h1>
+    <div id="container">
+        <div id="header">
+            <h2>The Devil's Dictionary</h2>
+            <div class="author">by Ambrose Bierce</div>
+        </div>
+        <div class="letters">
+            <div class="letter" id="letter-a">
+                <h3>
+                    <a href="a.html">A</a>
+                </h3>
+            </div>
+            <div class="letter" id="letter-b">
+                <h3>
+                    <a href="#">B</a>
+                </h3>
+            </div>
+            <div class="letter" id="letter-d">
+                <h3>
+                    <a href="#">D</a>
+                </h3>
+            </div>
+            <div class="letter" id="letter-e">
+                    <h3>E</h3>
+                    <ul>
+                        <li><a href="e.php?term=Eavesdrop">Eavesdrop</a></li>
+                        <li><a href="e.php?term=Edible">Edible</a></li>
+                        <li><a href="e.php?term=Education">Education</a></li>
+                        <li><a href="e.php?term=Eloquence">Eloquence</a></li>
+                        <li><a href="e.php?term=Elysium">Elysium</a></li>
+                        <li><a href="e.php?term=Emancipation">Emancipation</a></li>
+                        <li><a href="e.php?term=Emotion">Emotion</a></li>
+                        <li><a href="e.php?term=Envelope">Envelope</a></li>
+                        <li><a href="e.php?term=Envy">Envy</a></li>
+                        <li><a href="e.php?term=Epitaph">Epitaph</a></li>
+                        <li><a href="e.php?term=Evangelist">Evangelist</a></li>
+                      </ul>
+                </div>
+            <div class="letter" id="letter-f">
+                <h3>F</h3>
+                <form action="f.php" method="GET">
+                  <input type="text" name="term" value="" id="term" />
+                  <button type="submit">Search</button>
+                </form>
+              </div>
+        </div>
+        
+        <div id="dictionary"></div>
+    </div>
+    <noscript>When you have eliminated the JavaScript, whatever remains must be an empty page.</noscript>
+</body>
+
+</html>
